@@ -180,6 +180,7 @@ table {
 }
 
 form input[type="email"],
+form input[type="text"],
 form input[type="password"] {
   line-height: 34px;
   display: block;
@@ -273,6 +274,15 @@ form button {
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 5px;
+}
+
+.resultado {
+  padding: 10px;
+  color: #fff;
+}
+
+.resultado p {
+  font-size: 20px;
 }
 
 @media (min-width: 450px) {

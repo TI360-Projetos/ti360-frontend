@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBudget</title>
+    <link rel="stylesheet" href="ibudget.css">
+</head>
+<body>
+    <div class="container tela-1-bg">
+        <h1><img src="img/logo.svg" alt=""></h1>
+        <h2>iBudget</h2>
+        <h3>Pense iBudget!</h3>
+
+        <form action="#" method="GET" onsubmit="buscarEndereco();return false;">
+            <input type="text" name="cep" id="cep" placeholder="CEP">
+            
+
+            <button type="submit">Buscar endereço</button>
+            
+        </form>
+
+        <div id="resultado" class="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
